@@ -3,6 +3,8 @@ Spring 25 Cubstart Decal Project
 
 Project Name: vibecheck.fm
 
+Team Members: Alexa Zhang, Cindy Wang, Erin Pan
+
 Application description:
 
 Our website will generate a custom playlist and digital mood board based on how our user is feeling. Users select their mood (e.g., happy, reflective, angsty), and the app gives a playlist and a background image with aesthetic vibes. The user will also be provided with sticker boards for each of the emotions, allowing them to customize their boards with appealing features. 
@@ -21,3 +23,5 @@ Timeline:
 - Apr 28–30: assemble the sticker board and add drag and drop feature
 - May 1–2: polish layout and optimize user experience
 - Our project group will be meeting three times in person each week
+
+Figma: https://www.figma.com/design/ieBQhnOxVPCU36pfNVVmv8/decal?node-id=0-1&t=Sv6zJ94EMjmdKwsd-1
