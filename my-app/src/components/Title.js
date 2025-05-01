@@ -1,16 +1,16 @@
 import React from "react";
 import "./Title.css";
 
-function Title({ scrollY }) {
-  const translateY = Math.max(0, 100 - scrollY * 0.5); // Slide up slowly
-  const opacity = Math.max(0, 1 - scrollY / 150); // Fade out as scroll increases
+function Title({ scrollAmount }) {
+  const opacity = 1 - scrollAmount;
+  const translateY = -50 - scrollAmount * 20; // move slightly up
 
   return (
     <h1
       className="title"
       style={{
-        transform: `translateY(-${translateY}px)`,
-        opacity: opacity
+        opacity,
+        transform: `translate(-50%, ${translateY}%)`,
       }}
     >
       vibecheck.fm

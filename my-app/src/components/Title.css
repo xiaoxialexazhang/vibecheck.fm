@@ -1,12 +1,12 @@
 .title {
     position: fixed;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 3rem;
-    font-weight: bold;
-    color: white;
+    font-size: 6rem;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bolder;
+    color: #592a75;
     z-index: 2;
-    transition: transform 0.2s ease-out, opacity 0.2s ease-out;
+    transition: opacity 0.2s ease, transform 0.2s ease;
   }
   
