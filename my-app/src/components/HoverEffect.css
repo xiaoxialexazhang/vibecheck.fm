@@ -1,0 +1,15 @@
+.hover-effect {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    pointer-events: none;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, #CC9DCE 0%, rgba(204, 157, 206, 0.2) 60%, transparent 100%);
+    mix-blend-mode: lighten;
+    opacity: 0.85;
+    transition: all 2s ease;
+    z-index: 1;
+    filter: blur(30px);
+    transform: translate(-50%, -50%);
+  }
+  
