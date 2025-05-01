@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import yay from "../assets/happy-face.png";
 import sniff from "../assets/stunned.png";
 import meh from "../assets/neutral-face.png";
-import ahh from "../assets/sad-face.png";
+import ahh from "../assets/sad.png";
 
 function MoodOptions({ scrollAmount }) {
     const visible = scrollAmount >= 1;
