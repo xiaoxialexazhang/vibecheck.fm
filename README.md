@@ -7,20 +7,18 @@ Team Members: Alexa Zhang, Cindy Wang, Erin Pan
 
 Application description:
 
-Our website will generate a custom playlist and digital mood board based on how our user is feeling. Users select their mood (e.g., happy, reflective, angsty), and the app gives a playlist and a background image with aesthetic vibes. The user will also be provided with sticker boards for each of the emotions, allowing them to customize their boards with appealing features. 
+Our website will generate a playlist and color-schemed mood board based on how our user is feeling. Users select their mood (e.g., happy, sad, so-so, angry), and our website will direct them to a page where it gives a playlist and a background image with colored blocks generated using Color API to provide with music therapy, emotional support, and aesthetic vibes. 
 
 Features + Tools/Technologies:
 
-- Mood selection: html and javascript; react
-- Playlist: youtube iframe or spotify embed api
-- Aesthetic image: colormind/coolors api
-- Sticker board: GIPHY / Tenor api
-- Drag & drop sticker feature: react-draggable / react-beautiful-dnd
+- Mood selection, hover effect, back to home button: html and javascript; react
+- Playlist: spotify embedded playlist
+- Aesthetic background: Color API
 
 Timeline:
-- Apr 21–24: build mood form + styling
-- Apr 25–27: connect apis for image and playlist
-- Apr 28–30: assemble the sticker board and add drag and drop feature
+- Apr 21–24: build front page and enable scroll effects
+- Apr 25–27: enable hover effects and connect with Color API
+- Apr 28–30: find and embed spotify playlists, build back to home button
 - May 1–2: polish layout and optimize user experience
 - Our project group will be meeting three times in person each week
 

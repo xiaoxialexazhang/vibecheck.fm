@@ -1,12 +1,11 @@
 .title {
-    position: fixed;
-    top: 40%;
-    left: 50%;
-    font-size: 6rem;
-    font-family: 'Fredoka', sans-serif;
-    font-weight: bolder;
-    color: #592a75;
-    z-index: 2;
-    transition: opacity 0.2s ease, transform 0.2s ease;
-  }
-  
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  font-size: 6rem;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: bolder;
+  color: #592a75;
+  z-index: 2;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
