@@ -1,0 +1,38 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+  background-color: #9066c5;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.8s ease;
+}
+
+.hover-effect {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  pointer-events: none;
+  border-radius: 70%;
+  background: radial-gradient(circle at center, #B88BCB, transparent 60%);
+  mix-blend-mode: lighten;
+  opacity: 0.8;
+  transition: all 0.5s ease;
+  z-index: 1;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #5B2B75;
+  z-index: 2;
+}
